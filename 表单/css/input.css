@@ -1,0 +1,14 @@
+form{
+	height: 1000px;
+	width: 500px;
+}
+fieldset{
+	margin-bottom: 20px;
+}
+legend{
+	color: red;
+	font-weight: bolder;
+}
+ul li{
+	list-style: none;
+}
