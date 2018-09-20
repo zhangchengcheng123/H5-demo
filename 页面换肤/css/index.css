@@ -1,0 +1,54 @@
+fieldset{
+	height: 200px;
+	width: 805px;
+}
+legend{
+	font-weight: bolder;
+	font-size: larger;
+	color: red;
+}
+ul{
+	height: 46px;
+	width: 776px;
+	border:1px solid #bebebe;
+}
+ul li{
+	list-style: none;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin:5px;
+}
+.up{
+	position: relative;
+	bottom: 10px;;
+}
+.down{
+	
+}
+#gray{
+	background-color: #a9a9a9;
+}
+#purple{
+	background-color:#9370db;
+}
+#red{
+	background-color:#ff0000;
+}
+#blue{
+	background-color:#87ceeb;
+}
+#orange{
+	background-color:#ff8c00;
+}
+#green{
+	background-color:#7cfc00;
+}
+#txt{
+	height: 70px;
+	width: 706px;
+}
+p{
+	text-align: center;
+	line-height:35px ;
+}
