@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>七巧板</title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			#canvas{
+				border: 1px solid black;
+				background-color: #eee;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" width="300" height="300"></canvas>
+		<script type="text/javascript">
+			var canvas=document.getElementById("canvas");
+			var context=canvas.getContext("2d");
+		//蓝色
+			context.moveTo(0,0);
+			context.lineTo(150,150);
+			context.lineTo(0,300);
+			context.strokeStyle="#67becf"
+			context.fillStyle="#67becf";
+			context.fill();
+			context.stroke();
+		//绿色
+			context.beginPath();
+			context.moveTo(0,0);
+			context.lineTo(150,150);
+			context.lineTo(300,0);
+			context.strokeStyle="#caff67";
+			context.fillStyle="#caff67";
+			context.fill();
+			context.closePath();
+			context.stroke();
+		//红色
+			context.beginPath();
+			context.moveTo(300,0);
+			context.lineTo(225,75);
+			context.lineTo(225,225);
+			context.lineTo(300,150);
+			context.strokeStyle="#ef3d61";
+			context.fillStyle="#ef3d61";
+			context.fill();
+			context.closePath();
+			context.stroke();
+		//黄色
+			context.beginPath();
+			context.moveTo(150,150);
+			context.lineTo(225,75);
+			context.lineTo(225,225);
+			context.strokeStyle="#f9f51a";
+			context.fillStyle="#f9f51a";
+			context.fill();
+			context.closePath();
+			context.stroke();
+		//紫色
+			context.beginPath();
+			context.moveTo(150,300);
+			context.lineTo(75,225);
+			context.lineTo(150,150);
+			context.lineTo(225,225);
+			context.strokeStyle="#a594c0";
+			context.fillStyle="#a594c0";
+			context.fill();
+			context.closePath();
+			context.stroke();
+		//粉色
+			context.beginPath();
+			context.moveTo(0,300);
+			context.lineTo(75,225);
+			context.lineTo(150,300);
+			context.strokeStyle="#fa8ecc";
+			context.fillStyle="#fa8ecc";
+			context.fill();
+			context.closePath();
+			context.stroke();
+		//橙色
+			context.beginPath();
+			context.moveTo(300,300);
+			context.lineTo(150,300);
+			context.lineTo(300,150);
+			context.strokeStyle="#f6ca29";
+			context.fillStyle="#f6ca29";
+			context.fill();
+			context.closePath();
+			context.stroke();
+		</script>
+	</body>
+</html>
