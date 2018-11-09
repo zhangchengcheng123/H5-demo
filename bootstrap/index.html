@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>bootstrap</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<!--导航条-->
+	 <div class="container">
+		<nav class="navbar navbar-inverse navbar-fixed-top" > 
+			<div class="container-fluid">
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-1">
+			      <span class="sr-only">导航开关</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+			    <a class="navbar-brand" href="#">
+			    	<span class="glyphicon glyphicon-bell" ></span>
+			    	<span>Brand</span>
+			    </a>
+			  </div>
+			  <div class="collapse navbar-collapse" id="bs-1">
+			    <ul class="nav navbar-nav">
+			      <li class="active"><a href="#">Link</a></li>
+			      <li><a href="#">Link1</a></li>
+			      <li><a href="#">Link2</a></li>
+			      <li><a href="#">Link3</a></li>
+			      <li><a href="#">Link4</a></li>    
+			    </ul>   
+			    <form class="navbar-form navbar-right" role="search">
+		      <div class="form-group">
+		        <input type="text" class="form-control" placeholder="Search">
+		      </div>
+		      <button class="btn btn-warning" type="submit">Submit</button>
+		      <button class="btn btn-danger" type="submit">Action</button>
+		    </form> 
+			</div>
+		</nav> 
+		<!--轮播图-->
+	<div id="generic" class="carousel slide" data-ride="carousel">
+	    <ol class="carousel-indicators">
+	      <li data-target="#generic" data-slide-to="0" class="active"></li>
+	      <li data-target="#generic" data-slide-to="1"></li>
+	      <li data-target="#generic" data-slide-to="2"></li>
+	      <li data-target="#generic" data-slide-to="3"></li>
+	      <li data-target="#generic" data-slide-to="4"></li>
+	    </ol>
+    	<div class="carousel-inner" >
+      		<div class="item active">
+        	<img alt="First slide" src="img/img1.jpg" >
+		    <div class="carousel-caption">
+		    	<h3>轮播图1</h3>
+	          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+	        </div>
+      </div>
+      <div class="item">
+        <img alt="Second slide" src="img/img2.jpg" >
+        <div class="carousel-caption">
+          <h3>轮播图2</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="item">
+        <img alt="Third slide" src="img/img3.jpg"  >
+		  	<div class="carousel-caption">
+	          <h3>轮播图3</h3>
+	          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+	        </div>
+      </div>
+      <div class="item">
+        <img alt="Fourth slide" src="img/img4.gif"  >
+		  	<div class="carousel-caption">
+	          <h3>轮播图4</h3>
+	          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+	        </div>
+	      </div>
+      <div class="item">
+        <img alt="Fifth slide" src="img/img5.jpg"  >
+		  	<div class="carousel-caption">
+	          <h3>轮播图5</h3>
+	          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        	</div>
+      </div>
+	    </div>
+	    <a class="left carousel-control" href="#generic" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left"></span>
+	    </a>
+	    <a class="right carousel-control" href="#generic" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right"></span>
+	    </a>
+	  </div>
+	  
+	  <!--内容-->
+	  <p></p>
+	  <div class="content">
+	  	<ul class="list-inline row">
+	  		<li class="col-md-4">
+	  			<h3>Content area1 
+	  				<small>The First</small>
+	  				<span class="badge">42</span>
+	  			</h3>
+	  			<p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+	  		</li>
+	  		<li class="col-md-4">
+	  			<h3>Content area2 
+	  				<small>The Second</small>
+	  				<span class="badge">40</span> 
+	  			</h3>
+	  			<p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+	  		</li>
+	  		<li class="col-md-4">
+	  			<h3>Content area3 
+	  				<small>The Third</small>
+	  				<span class="badge">60</span> 
+	  			</h3>
+	  			<p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+	  		</li>
+	  	</ul>
+	  	<ul class="pager" style="float: right;">
+			<li class="disabled">
+			<a href="#">上一页</a>
+			</li>
+			<li>
+			<a href="#">下一页</a>
+			</li>
+		</ul>
+	  	<ul class="pagination" style="float:right">
+			<li><a href="#">&laquo;</a></li>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">&raquo;</a></li>
+		</ul>
+		<!--表格-->
+		 <p></p>
+		<div class="table">
+			<h2>Report Table <small>form Delte</small></h2>                    
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>First</th>
+						<th>Second</th>
+						<th>Third</th>
+						<th>Fourth</th>
+						<th>Fifth</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>1</td>
+					<td>pebthidghidj</td>
+					<td>what</td>
+					<td>message</td>
+					<td>34</td>
+					<td><button  type="button" class="btn btn-success">提交</button></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>pengduehughhs</td>
+					<td>you</td>
+					<td>information</td>
+					<td>45</td>
+					<td><button  type="button" class="btn btn-success">提交</button></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>pethdieg</td>
+					<td>you</td>
+					<td>message</td>
+					<td>67</td>
+					<td><button  type="button" class="btn btn-success">提交</button></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>nulla non</td>
+					<td>test</td>
+					<td>testing</td>
+					<td>78</td>
+					<td><button  type="button" class="btn btn-success">提交</button></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>nulla non</td>
+					<td>test</td>
+					<td>message</td>
+					<td>89</td>
+					<td><button  type="button" class="btn btn-success">提交</button></td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
+	  </div>
+	  
+<!--多媒体-->
+ <p></p>
+	<div class="media">
+		<div class="media-left">	
+			<img class="media-object " src="img/pic.jpg" alt="...">
+		</div>
+		<div class="media-body">
+			<h3 class="media-heading" style="margin-left: 50px;">Cum soclis natoque penatibus et magnis dis pathrient montes</h3>
+			<p style="margin-left: 50px;">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+			<div class="media">
+				<div class="media-body">
+					<ul class="list-unstyled" style="margin-left: 50px; ">
+						<li>Maecenas sed diam eget nsus</li>
+						<li>Maecenas sed diam eget nsus</li>
+						<li>Maecenas sed diam eget nsus</li>
+						<li>Maecenas sed diam eget nsus</li>
+						<li>Maecenas sed diam eget nsus</li>
+					</ul>
+				</div> 
+				<div class="media-right">
+					<img class="media-object " src="img/1.jpg" alt="...">
+				</div>
+			</div>
+		</div>
+	</div>
+	 <p></p>
+<!--缩略图-->
+	<div class="row">
+		<div class="col-md-7">
+			<div class="thumbnail">
+				<ul class="list-inline">
+					<li><img src="img/2.jpg" class="img-rounded" alt="..."></li>
+					<li><img src="img/3.jpg" class="img-rounded" alt="..."></li>
+					<li><img src="img/4.jpg" class="img-rounded" alt="..."></li>
+				</ul>
+			<div class="caption">
+			    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		 	</div>
+		</div>
+	</div>
+	<span >
+		<h3>User Login <small>Form</small></h3>
+		<form class="form-horizontal" >
+		  <div class="form-group" style=" height:28px;">
+		    <label for="inputEmail3" class="control-label col-sm-1">Email</label>
+		    <div class="col-sm-4">
+		      <input type="email" class="form-control col-sm-2" id="inputEmail3" placeholder="Email">
+		    </div>
+		  </div>
+		  <div class="form-group" style=" height:28px;" >
+		    <label for="inputPassword3" class="control-label col-sm-1">Password</label>
+		    <div class="col-sm-4">
+		      <input type="password" class="form-control col-sm-2" id="inputPassword3" placeholder="Password">
+		    </div>
+		  </div>
+		  <div class="form-group" style=" height:28px;">
+		    <div class="col-sm-offset-2 col-sm-2">
+		      <div class="checkbox">
+		        <label>
+		          <input type="checkbox">blue
+		        </label>
+		        <label>
+		          <input type="checkbox"> red
+		        </label>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-2">
+		      <button type="submit" class="btn btn-info">Sign in</button>
+		    </div>
+		  </div>
+		</form>
+	</span>
+<!--底部-->
+	<footer style="background-color: black; color: white;text-align: center;">
+		<p>网站地址</p>
+		<p>copyright@www.xxxx.com</p>
+	</footer>
+	</div>
+	<script src="js/jquery.js"></script>    
+    <script src="js/bootstrap.min.js"></script>  
+	</body>
+</html>
